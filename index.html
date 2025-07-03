@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avengers Universe</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    nav a:hover {
+      color: white;
+      text-shadow: 0 0 8px #f0db4f, 0 0 12px #f0db4f;
+      transform: scale(1.1);
+      transition: all 0.3s ease;
+    }
+    .nav-item {
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: #f0db4f;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 3px black;
+  transition: all 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: white;
+  text-shadow: 0 0 8px #f0db4f, 0 0 12px #f0db4f;
+  transform: scale(1.1);
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  background: #222;
+  color: #f0db4f;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+  z-index: 10;
+  text-align: center;
+}
+
+.nav-item:hover .popup {
+  display: block;
+}
+
+  </style>
+</head>
+<body >
+  <header>
+    <h1 style="text-align: center;font-size: clamp(2rem, 5vw, 4rem); text-shadow:
+    0 0 10px #eb7d00,
+    0 0 20px #f04f4ff8,
+    2px 2px 5px rgb(252, 114, 2);
+  -webkit-text-stroke: 1px rgb(250, 95, 5);
+  letter-spacing: 2px;margin-top: 50px;font-family: Impact, sans-serif;"> Avengers Universe</h1>
+   <nav style="text-align: center; margin-top: 20px;">
+  <div class="nav-item">
+    <a href="movies.html">Avengers Movies</a>
+    <div class="popup">Watch the timeline of all Avengers movies, from Iron Man to Endgame and beyond.</div>
+  </div>
+  <div class="nav-item">
+    <a href="characters.html">Character Gallery</a>
+    <div class="popup">Explore your favorite heroes like Iron Man, Thor, Black Widow, and more.</div>
+  </div>
+  <div class="nav-item">
+    <a href="upcoming.html">Upcoming Movies</a>
+    <div class="popup">See what's next in the MCU – including Secret Wars and Fantastic Four.</div>
+  </div>
+</nav>
+
+    <main style="padding: 20px; text-align: center;font-style: italic;">
+      <p style="font-size: 2rem;color: rgb(255, 238, 5);;">Explore the Avengers cinematic universe — movies, heroes, and what's next!</p>
+    </main>
+  </header>
+  <div class="card-container">
+    
+    <div class="card">
+      <img src="ironman.jpg" alt="Iron Man">
+      <h3>Iron Man</h3>
+      <p>Genius billionaire in a flying suit.</p>
+    </div>
+    <div class="card">
+      <img src="captain.jpg" alt="Captain America">
+      <h3>Captain America</h3>
+      <p>The first Avenger and symbol of justice.</p>
+    </div>
+    <div class="card" >
+      <h3>And many more...</h3>
+      <p>Discover all heroes in the Marvel Cinematic Universe.</p>
+    </div>
+    
+  </div>
+  
+
+  
+
+
+
+  
+ 
+  
+  <footer style="text-align: center; margin-top: 40px; color: #aaa;">
+    &copy; 2025 Avengers Universe. Fan project. All rights belong to Marvel Studios.
+  </footer>
+  
+</body>
+</html>

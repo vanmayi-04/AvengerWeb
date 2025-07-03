@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Avengers Movies</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .fade-in-header {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="fade-in-header">Upcoming Avengers Movies</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="movies.html">Movies</a>
+      <a href="characters.html">Characters</a>
+    </nav>
+  </header>
+  <main>
+    <section class="upcoming-grid">
+     
+
+<div class="timeline-container">
+  <div class="timeline">
+    <div class="event"><p>Iron Man<span>2008</span></p></div>
+    <div class="event"><p>The Incredible Hulk<span>2008</span></p></div>
+    <div class="event"><p>Iron Man 2<span>2010</span></p></div>
+    <div class="event"><p>Thor<span>2011</span></p></div>
+    <div class="event"><p>Captain America: TFA<span>2011</span></p></div>
+    <div class="event"><p>The Avengers<span>2012</span></p></div>
+    <div class="event"><p>Iron Man 3<span>2013</span></p></div>
+    <div class="event"><p>Thor: The Dark World<span>2013</span></p></div>
+    <div class="event"><p>Captain America: TWS<span>2014</span></p></div>
+    <div class="event"><p>Guardians of the Galaxy<span>2014</span></p></div>
+    <div class="event"><p>Avengers: Age of Ultron<span>2015</span></p></div>
+    <div class="event"><p>Ant-Man<span>2015</span></p></div>
+    <div class="event"><p>Captain America: Civil War<span>2016</span></p></div>
+    <div class="event"><p>Doctor Strange<span>2016</span></p></div>
+    <div class="event"><p>Guardians Vol. 2<span>2017</span></p></div>
+    <div class="event"><p>Spider-Man: Homecoming<span>2017</span></p></div>
+    <div class="event"><p>Thor: Ragnarok<span>2017</span></p></div>
+    <div class="event"><p>Black Panther<span>2018</span></p></div>
+    <div class="event"><p>Avengers: Infinity War<span>2018</span></p></div>
+    <div class="event"><p>Ant-Man and the Wasp<span>2018</span></p></div>
+    <div class="event"><p>Captain Marvel<span>2019</span></p></div>
+    <div class="event"><p>Avengers: Endgame<span>2019</span></p></div>
+    <div class="event"><p>Spider-Man: Far From Home<span>2019</span></p></div>
+    <div class="event"><p>Black Widow<span>2021</span></p></div>
+    <div class="event"><p>Shang-Chi<span>2021</span></p></div>
+    <div class="event"><p>Eternals<span>2021</span></p></div>
+    <div class="event"><p>No Way Home<span>2021</span></p></div>
+    <div class="event"><p>Multiverse of Madness<span>2022</span></p></div>
+    <div class="event"><p>Love and Thunder<span>2022</span></p></div>
+    <div class="event"><p>Wakanda Forever<span>2022</span></p></div>
+    <div class="event"><p>Quantumania<span>2023</span></p></div>
+    <div class="event"><p>Guardians Vol. 3<span>2023</span></p></div>
+    <div class="event"><p>The Marvels<span>2023</span></p></div>
+    <div class="event"><p>Deadpool & Wolverine<span>2024</span></p></div>
+    <div class="event"><p>Fantastic Four<span>2025</span></p></div>
+    <div class="event"><p>Avengers: Doomsday<span>2026</span></p></div>
+    <div class="event"><p>Avengers: Secret Wars<span>2027</span></p></div>
+  </div>
+</div>
+
+
+  <div class="upcoming-card">
+    <h3>Fantastic Four: First Steps (2025)</h3>
+    <p>Marvel's First Family is reintroduced as they face cosmic threats, with Galactus looming.</p>
+  </div>
+
+  <div class="upcoming-card">
+    <h3>Blade (2025)</h3>
+    <p>The vampire hunter returns to fight supernatural enemies in the shadows of the MCU.</p>
+  </div>
+
+  <div class="upcoming-card">
+    <h3>Marvel Zombies (2025, Disney+)</h3>
+    <p>An alternate reality where zombified superheroes take over, in a mature-rated animated series.</p>
+  </div>
+
+  <div class="upcoming-card">
+    <h3>Avengers: Doomsday (2026)</h3>
+    <p>Dr. Doom forces unlikely alliances among the Avengers, Fantastic Four, and X-Men.</p>
+  </div>
+
+  <div class="upcoming-card">
+    <h3>Spider-Man: Brand New Day (2026)</h3>
+    <p>Peter Parker starts fresh after losing his identity — but new foes from across the multiverse arrive.</p>
+  </div>
+
+  <div class="upcoming-card">
+    <h3>Avengers: Secret Wars (2027)</h3>
+    <p>Heroes and villains from all timelines converge in a multiverse war that will reshape reality itself.</p>
+  </div>
+      
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const headers = document.querySelectorAll('h2');
+    headers.forEach(header => {
+      header.addEventListener('click', () => {
+        const nextList = header.nextElementSibling;
+        if (nextList && nextList.classList.contains('movie-list')) {
+          nextList.style.display = nextList.style.display === 'flex' ? 'none' : 'flex';
+        }
+      });
+    });
+  });
+</script>
+    </section>
+  </main>
+</body>
+</html>
