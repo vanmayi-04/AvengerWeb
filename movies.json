@@ -1,0 +1,11 @@
+
+{
+  "avengersMovies": [
+    {
+      "title": "The Avengers",
+      "year": 2012,
+      "description": "Earth's mightiest heroes must come together to stop Loki.",
+      "poster": "assets/images/avengers1.jpg"
+    }
+  ]
+}
