@@ -28,11 +28,13 @@ The application focuses on delivering a smooth user experience through structure
 ```
 Avengers-Web-App/
 │── index.html
-│── styles.css
+│── movies.html
 │── script.js
+|── upcoming.html
+|── characters.html
 │── assets/
 │   ├── images/
-│   └── icons/
+
 ```
 
 ## 💡 Key Highlights
